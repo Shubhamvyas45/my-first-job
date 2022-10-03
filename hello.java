@@ -1,16 +1,16 @@
-publicclass hello {
+public class hello {
 
 
 
-  publicstatic void main(String[] args) {
+  public static void main(String[] args) {
 
-    introws = 5;
+    int rows = 5;
 
 
 
-    for (inti = 1; i <= rows; ++i) {
+    for (int i = 1; i <= rows; ++i) {
 
-      for (intj = 1; j <= i; ++j) {
+      for (int j = 1; j <= i; ++j) {
 
         System.out.print("* ");
 
